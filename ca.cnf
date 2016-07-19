@@ -1,0 +1,21 @@
+[ ca ]
+default_ca = CA_default
+
+[ CA_default ]
+database = state/database.txt
+serial = state/serial.hex
+new_certs_dir = work
+certificate = state/root/cert.pem
+private_key = state/root/key.pem
+default_days = 36500
+default_md = sha512
+copy_extensions = copy
+policy = policy_any
+
+[ policy_any ]
+countryName = supplied
+stateOrProvinceName = optional
+organizationName = optional
+organizationalUnitName = optional
+commonName = supplied
+emailAddress = optional

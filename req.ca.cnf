@@ -1,0 +1,16 @@
+[ req ]
+distinguished_name = distinguished_name
+default_md = sha512
+prompt = no
+x509_extensions = extensions
+
+[ distinguished_name ]
+countryName = US
+stateOrProvinceName = New York
+localityName = Brooklyn
+emailAddress = jesse.tane@gmail.com
+commonName = Jesse Tane Personal CA
+0.organizationName = Jesse Tane
+
+[ extensions ]
+basicConstraints = CA:TRUE
