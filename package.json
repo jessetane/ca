@@ -1,0 +1,8 @@
+{
+  "name": "ca",
+  "version": "1.0.0",
+  "description": "Notes on how to set up a certificate authority",
+  "repository": "https://github.com/jessetane/ca",
+  "author": "jesse.tane@gmail.com",
+  "license": "Public domain"
+}
